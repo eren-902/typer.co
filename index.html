@@ -8,6 +8,157 @@
     <title>I can do this</title>
     <link rel="stylesheet" href="https://github.com/eren-902/typer.co/blob/f31bb2b94e6e9dbef1bfd3842b5e671dd8ca5a6f/style.css">
     <script src="https://kit.fontawesome.com/71cc636ef5.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #0C0C0C;
+    color: #f08080;
+}
+body{
+    padding: 2em 5em;
+}
+main{
+    max-width: 100%;
+    display: block;
+}
+.heading-main{
+    font-size: 1.75em;
+    position: relative;
+    bottom: .5em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-tools{
+    display: flex;
+    justify-content: space-between;
+    width: 25em;
+    list-style-type: none;
+    position: relative;
+}
+
+.nav-tools a{
+    text-decoration: none;
+    padding-left:1em;
+}
+
+.nav-tools i{
+    padding-right: 1em;
+}
+
+.time-section{
+    display: flex;
+    justify-content: space-between;
+}
+#count{
+    font-size: 1.5em;
+}
+.time-contain{
+    text-align: right;
+    
+}
+.time-set{
+    position: relative;
+    left: 1em;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #f08080;
+    border-radius:10%;
+    padding: 1.75em;
+    margin: 1em;
+    font-size: 90%;
+    max-width: 1em;
+    max-height: 1em; 
+}
+#time-button-15{
+    margin-left:none !important;
+}
+.time-set:hover{
+    background-color: #f08080;
+    color: #0C0C0C;
+    cursor: pointer;
+}
+.time-set:visited{
+    background-color: #f08080;
+    color: #0C0C0C;
+}
+
+.text-write-area{
+    max-width: 100%;
+    text-align: center;
+    font-size: 1.25em;
+    display: block;
+}
+.test-text{
+
+    line-height: 1.5em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#text-main{
+    outline: none;
+    border: 1px solid
+     #f08080;
+    resize: none;
+    font-size: 1em;
+    width: 70%;
+    height: 15em;
+    color: rgba(204, 134, 3, 0.918);
+    border-radius: 1em;
+    padding: 1em;
+}
+
+#text-main::-webkit-scrollbar{
+    width:.2em;
+}
+#text-main::-webkit-scrollbar-thumb {
+    background-color: #f08080;
+  }
+
+.point-show{
+    position: fixed;
+    top: 35%;
+    right: 35%;
+    width: 30vw;
+    height: 20vh;
+    border: .1em solid #f08080 ;
+    display: none;
+}
+
+.points-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw;
+    list-style-type: none;
+    font-size: 1em;
+}
+.points-number{
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+.points-number li{
+    max-width: 1.5em;
+}
+
+.point-contain{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    opacity: .4;
+    display: none;
+}
+.point-contain:hover{
+    cursor: pointer;
+}
+    </style>
 </head>
 <body onload="generateText()">
         <header>
